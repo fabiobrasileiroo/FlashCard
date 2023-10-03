@@ -1,4 +1,4 @@
-.header {
+/*.header {
     display: flex;
     justify-content: space-between;
     justify-content: space-between;
@@ -9,7 +9,63 @@
 .header > nav {
     display: flex;
     gag: 1rem;
-}
+} 
+*/
+/* Header.css */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .menu-toggle {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  .menu-toggle:focus {
+    outline: none;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: none;
+    align-items: center;
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos quando o menu está visível */
+  .menu-active {
+    display: flex;
+  }
+  
 .logo {
     max-width:100px;
     max-height:35px;
